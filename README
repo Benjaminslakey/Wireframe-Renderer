@@ -1,0 +1,10 @@
+A graphics programming project, with the goal to build a wireframe model.
+FdF reads in formatted "map" files and creates an orthographic projection of the object represented by the "map";
+Features.
+Zoom
+Translate
+Rotate: x, y, and z
+Z based color gradient
+
+The current version is slightly slow because it realloces the 2d array of structures representing the objects vertices at every re-"render",
+instead of modifying existing object variables, and does not free all memory.
